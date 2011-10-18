@@ -1,0 +1,45 @@
+Here is a quick diagram of the setup:
+
+
+\
+ \/\  Radiation
+    \
+    >:)
+                                                                                     
+     +--------------------+               +---------------+ 
+     | USB Geiger Counter |-----USB-------| Python script |
+     +--------------------+               +---------------+              
+                                                  |
+                                                  |
+                                              Interwebz
+                                                  |
+                                                  |
+                                          +---------------+
+                                          | php collector |
+                                          +---------------+
+                                                  |
+                                              ____|____
+                                             |__^___^__| 
+                                             |_SQL_DB__|
+                                             |_________|
+                                                  |
+                                                  |
+                                          +-----------------+
+                                          | cool web graphs |
+                                          | ./\__||_/\.\__  |
+                                          +-----------------+
+
+Software things you need before it will run:
+
+PySerial
+Python
+PHP
+Postgres
+Google charts/MRTG/etc
+
+Hardware things you need before it will run:
+
+Sparkfun Geiger Counter (http://www.sparkfun.com/products/9848)
+Computer
+Web server
+
